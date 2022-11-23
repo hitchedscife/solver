@@ -20,4 +20,16 @@ def icon():
      |
     """)
 
+def menu():
+    print("[" + Fore.GREEN + "payloads" + Fore.WHITE + "]")
+    print("")
+    print(Fore.WHITE + "[" + Fore.GREEN + "1" + Fore.WHITE + "]" + Fore.GREEN + " slack Trojan")
+    print(Fore.WHITE + "[" + Fore.GREEN + "2" + Fore.WHITE + "]" + Fore.GREEN + " XMR miner")
+    print("")
+    opt = input(Fore.WHITE +"[" + Fore.GREEN + "+" + Fore.WHITE + "] solver> ")
+
+
+
+
 icon()
+menu()
