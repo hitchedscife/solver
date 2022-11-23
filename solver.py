@@ -1,10 +1,6 @@
 from colorama import *
-import os
-
-try:
- os.system("cls")
-except:
- os.system("clear")
+import subprocess as sp
+sp.call('clear', shell=True)
 
 def icon():
     print(Fore.WHITE + """
