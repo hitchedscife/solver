@@ -1,4 +1,10 @@
 from colorama import *
+import os
+
+try:
+ os.system("cls")
+except:
+ os.system("clear")
 
 def icon():
     print(Fore.WHITE + """
